@@ -1,0 +1,7 @@
+{
+  "parent": "numismatic_overhaul:block/piggy_bank_base",
+  "textures": {
+    "0": "numismatic_overhaul:block/piggy_bank/purple",
+    "particle": "numismatic_overhaul:block/piggy_bank/purple"
+  }
+}

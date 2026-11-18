@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#",
+    "F"
+  ],
+  "key": {
+    "#": "numismatic_overhaul:bronze_coin",
+    "F": "minecraft:flower_pot"
+  },
+  "result": {
+    "id": "numismatic_overhaul:piggy_bank"
+  }
+}

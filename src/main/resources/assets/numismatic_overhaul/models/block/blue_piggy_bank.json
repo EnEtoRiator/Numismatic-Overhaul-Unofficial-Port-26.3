@@ -1,0 +1,7 @@
+{
+  "parent": "numismatic_overhaul:block/piggy_bank_cool",
+  "textures": {
+    "0": "numismatic_overhaul:block/piggy_bank/blue",
+    "particle": "numismatic_overhaul:block/piggy_bank/blue"
+  }
+}

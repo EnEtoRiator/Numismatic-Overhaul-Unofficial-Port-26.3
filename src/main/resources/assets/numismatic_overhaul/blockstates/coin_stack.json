@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "numismatic_overhaul:block/coin_stack"
+    }
+  }
+}

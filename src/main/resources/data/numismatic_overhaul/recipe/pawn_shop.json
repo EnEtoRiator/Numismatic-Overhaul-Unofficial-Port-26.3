@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#_#",
+        "OOO"
+    ],
+    "key": {
+        "#": "numismatic_overhaul:silver_coin",
+        "_": "minecraft:mud_brick_slab",
+        "O": "#minecraft:planks"
+    },
+    "result": {
+        "id": "numismatic_overhaul:pawn_shop"
+    }
+}

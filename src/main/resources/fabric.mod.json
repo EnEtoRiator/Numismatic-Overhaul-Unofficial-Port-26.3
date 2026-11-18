@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "numismatic_overhaul",
+	"version": "${version}",
+	"name": "Numismatic Overhaul",
+	"description": "Terraria-style currency in Minecraft (26.3 Modern Port)",
+	"authors": [
+		"EnEtoRiator",
+		"glisco",
+		"Pois1x",
+		"Noaaan"
+	],
+	"contact": {},
+	"license": "MIT",
+	"icon": "assets/numismatic_overhaul/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.glisco.numismaticoverhaul.NumismaticOverhaul"
+		],
+		"client": [
+			"com.glisco.numismaticoverhaul.client.NumismaticOverhaulClient"
+		],
+		"fabric-datagen": [
+			"com.glisco.numismaticoverhaul.client.NumismaticOverhaulDataGenerator"
+		]
+	},
+	"mixins": [
+		"numismatic_overhaul.mixins.json",
+		{
+			"config": "numismatic_overhaul.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
